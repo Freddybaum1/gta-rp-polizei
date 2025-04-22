@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>Bewerbung – Polizei Bielefeld</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+    <div class="container">
+        <h2>Bewerbungsformular</h2>
+        <form action="/bewerbung" method="post">
+            <label for="name">Name (RP-Charakter):</label><br />
+            <input type="text" id="name" name="name" required /><br />
+
+            <label for="alter">Alter (RL):</label><br />
+            <input type="number" id="alter" name="alter" required /><br />
+
+            <label for="erfahrung">RP-Erfahrung:</label><br />
+            <textarea id="erfahrung" name="erfahrung" rows="5" required></textarea><br />
+
+            <button type="submit" class="button">Bewerbung abschicken</button>
+        </form>
+    </div>
+</body>
+</html>
